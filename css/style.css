@@ -13,7 +13,10 @@ body{
 }
 
 header{
+    height: 100%;
+    display: flex;
     color: white;
+    justify-content:end;
 }
 
 .flex{
@@ -21,3 +24,28 @@ header{
 }
 
 /*HEADER*/
+
+.viewConteiner{
+    height: 100px;
+    justify-content:end;
+    margin: 0;
+    padding:10px;
+}
+
+.speakerV{
+    margin: 0;
+    width: 135px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.greyBorder{
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.arrow{
+    width: 30px;
+    padding: 7px;
+}
