@@ -32,7 +32,7 @@ header{
 /* HEADER */
 
 .viewConteiner{
-    height: 5rem;
+    height: 80px;
     justify-content:end;
     margin: 0;
     padding:10px;
@@ -67,7 +67,7 @@ header{
     position: relative;
     background-image: url(https://picsum.photos/300/200);
     width: calc(100% / 7 - 10px);
-    height: 200px;
+    height: calc((100vh - 230px) / 5);
     margin: 5px;
 }
 
@@ -91,4 +91,19 @@ header{
 footer{
     background-color: #222222;
     width: 100%;
+    height: 100px;
+}
+
+.leftIcon{
+    justify-content: start;
+    margin: 0;
+    align-items: center;
+}
+
+p{
+    font-size: 15px;
+}
+
+.flex.colorWhite.leftIcon div{
+    text-align: center;
 }
