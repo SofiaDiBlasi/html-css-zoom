@@ -1,4 +1,4 @@
-/*GENERAL*/
+/* GENERAL */
 
 
 *{
@@ -29,7 +29,7 @@ header{
     color: white;
 }
 
-/*HEADER*/
+/* HEADER */
 
 .viewConteiner{
     height: 5rem;
@@ -56,7 +56,7 @@ header{
     padding: 7px;
 }
 
-/* MAIN*/
+/* MAIN */
 
 .contenitore{
     width: 100%;
@@ -83,4 +83,12 @@ header{
 
 .opacityBg{
     background-color:rgba(100, 114, 123, 0.3)
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #222222;
+    width: 100%;
 }
